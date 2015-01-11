@@ -10,7 +10,7 @@ plot3 <- function(){
         ## Pick up datetime values from data
         dateTime <- strptime(paste(as.Date(dataSet$Date, "%d/%m/%Y"), dataSet$Time, sep = " "), format = "%Y-%m-%d %H:%M:%S")
         
-        ## Create parameters for saving histogram as PNG
+        ## Create parameters for saving plot as PNG
         png(filename = "plot3.png", width = 480, height = 480)
         
         ## Enforce number of rows and columns of plot
