@@ -13,7 +13,7 @@ plot2 <- function(){
         ## Create parameters for saving plot as PNG
         png(filename = "plot2.png", width = 480, height = 480)
         
-        ## Enforce number of rows and columns of plot
+        ## Enforce number of rows and columns on the plot
         par(mfrow = c(1, 1))
         
         ## Create plot

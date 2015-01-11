@@ -13,7 +13,7 @@ plot4 <- function(){
         ## Create parameters for saving plot as PNG
         png(filename = "plot4.png", width = 480, height = 480)
         
-        ## Enforce number of rows and columns of plot
+        ## Enforce number of rows and columns on the plot
         par(mfrow = c(2, 2))
         
         ## Create upper left plot
